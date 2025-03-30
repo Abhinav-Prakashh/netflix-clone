@@ -2,11 +2,12 @@
     margin: 0;
     font-family: sans-serif;
     border: border-box;
+    background-color: #0f0f0f;
 }
 
 .navbar {
     height: 90px;
-    background-color: #1c1218;
+    background-color: #0f0f0f;
     color: white;
     display: flex;
     align-items: center;
@@ -15,29 +16,34 @@
 
 /** box1 **/
 .logo {
-    background-image: url("netflix-logo.png");
+    background-image: url("netflix-logo.jpg");
     background-size: cover;
-    height: 50px;
-    width: 200px;
+    height: 90px;
+    width: 250px;
+    position: relative;
+    bottom: 20px;
+    margin-left: -30px;
 }
 
 /** box2 **/
 .language {
-    margin-left: 1100px;
-    margin-right: 12px;
+    position: relative;
+    left: 510px;
+    margin-right: 10px;
 }
 
 .select-lang {
     height: 32px;
     border-radius: 50px;
-    background-color: #1c1218;
+    background-color: #0f0f0f;
     color: white;
     width: 125px;
     font-size: 0.9rem;
     text-align: center;
-    font-weight: 550;
+    font-weight: 500;
 }
 
+/** box3 **/
 .sign-in {
     height: 32px;
     width: 80px;
@@ -49,9 +55,48 @@
     justify-content: center;
     font-weight: 550;
     font-size: 0.9rem;
-    margin-right: 100px;
+    margin-right: 70px;
 }
 
 .sign-in:hover {
     background-color: rgb(160, 157, 157);
+}
+
+/** Hero Section **/
+.hero-section {
+    color:white;
+    width: 1190px;
+    height: 560px;
+    border: 2px solid white;
+    padding: 0 80px 88px;
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 30px;
+}
+
+/**Main text**/
+.main-topic {
+    margin-top: 170px;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.price {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 180px;
+    font-size: 1.5rem;
+}
+
+.membership {
+    position: absolute;
+    bottom: 220px;
+    font-size: 1rem;
 }

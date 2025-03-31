@@ -64,7 +64,7 @@
     font-weight: 550;
     font-size: 0.9rem;
     margin-right: 100px;
-    margin-left: -30px;
+    margin-left: -20px;
 }
 
 .sign-in:hover {
@@ -108,12 +108,12 @@
     position: absolute;
     bottom: 180px;
     font-size: 1rem;
+    color: white;
 }
 
 /** Email entry **/
 .email-id {
     background-color: #454445;
-    color: #b5b5b5;
     width: 350px;
     height: 56px;
     border: 1px solid #b5b5b5;
@@ -121,6 +121,9 @@
     padding: 0 15px 0 15px;
     position: relative;
     right: 10px;
+    font-size: 1rem;
+    font-weight: 550;
+    color: #b5b5b5;
 }
 
 
@@ -155,6 +158,7 @@
 
 h2 {
     font-size: 2rem;
+    color: white;
 }
 
 /** reasons **/
@@ -167,7 +171,7 @@ h2 {
     width: 300px;
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 15px;
-    margin: 50px 7px 50px;
+    margin: 15px 7px 50px;
     padding-top: 10px;
     background-color: rgba(255, 255, 255, 0.1);
 }
@@ -197,4 +201,61 @@ img {
     position: absolute;
     bottom: 70px;
     transform: scale(0.85);
+}
+
+/** frequently asked section **/
+
+.third-section {
+    position: absolute;
+    top: 1080px;
+    left: 110px;
+    margin-left: 15px;
+}
+
+/** question panel **/
+
+.question-panel {
+    margin: 15px 0 25px 7px;
+    color: white;
+    font-weight: 750;
+    font-size: 1.1rem;
+}
+
+.questions {
+    height: 70px;
+    width: 1215px;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.1);
+    margin-top: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.fa-solid {
+    background-color: transparent;
+}
+
+.questions:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    transition: all 0.2s ease-in-out;
+}
+
+.fourth-section {
+    height: 75px;
+    width: 600px;
+    /* border: 2px solid white; */
+    position: relative;
+    top: 1600px;
+    left: 65vh;
+    display: flex;
+    justify-content: center;
+}
+
+.fourth-section .membership {
+    margin-bottom: -80px;
+    background-color: transparent;
 }

@@ -79,9 +79,8 @@
     border: 2px solid white;
     padding: 0 80px 88px;
     position: absolute;
-    left: 50%;
-    top: 55%;
-    transform: translate(-50%, -50%);
+    top: 100px;
+    left: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -247,7 +246,6 @@ img {
 .fourth-section {
     height: 75px;
     width: 600px;
-    /* border: 2px solid white; */
     position: relative;
     top: 1600px;
     left: 65vh;
@@ -258,4 +256,69 @@ img {
 .fourth-section .membership {
     margin-bottom: -80px;
     background-color: transparent;
+}
+
+.footer {
+    border: 2px solid white;
+}
+
+.foot-panel1 {
+    color: rgb(150, 146, 146);
+    position: relative;
+    top: 1650px;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.foot-panel1 p {
+    margin-bottom: 40px;
+    margin-left: -50px;
+}
+
+
+ul a {
+    color: rgb(150, 146, 146);
+    margin-bottom: 20px;
+    display: block;
+    font-size: 0.9rem;
+}
+
+.list2 {
+    margin-top: 60px;
+}
+
+.list3 {
+    margin-top: 60px;
+}
+
+.list4 {
+    margin-top: 60px;
+}
+
+ul {
+    margin-left: -80px;
+}
+
+.foot-panel2 {
+    position: relative;
+    top: 1580px;
+    width: 100px;
+    right: 290px;
+    color: white;
+}
+
+.foot-panel2 .select-lang {
+    width: 100px;
+}
+
+.final-text {
+    color: rgb(150, 146, 146);
+    /* border: 2px solid white; */
+    position: relative;
+    top: 1600px;
+    /* left: 160px; */
+    padding-left: 160px;
+    margin-top: 15px;
+    height: 100px;
 }

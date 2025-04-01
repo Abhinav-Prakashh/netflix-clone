@@ -12,6 +12,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 0 50px;
 }
 
 /** box1 **/
@@ -25,10 +26,15 @@
     margin-left: 25px;
 }
 
+.right-section {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
 /** box2 **/
 .language {
-    position: relative;
-    left: 450px;
+    margin-left: auto;
 }
 
 .select-lang {

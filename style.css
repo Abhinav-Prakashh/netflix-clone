@@ -17,7 +17,7 @@
 
 /** box1 **/
 .logo {
-    background-image: url("netflix-logo.jpg");
+    background-image: url("assets/netflix-logo.jpg");
     background-size: cover;
     height: 90px;
     width: 250px;
@@ -307,15 +307,16 @@ ul {
 }
 
 .foot-panel2 {
-    position: relative;
-    top: 1580px;
+    position: absolute;
+    top: 2025px;
     width: 100px;
-    right: 290px;
+    left: 155px;
     color: white;
 }
 
 .foot-panel2 .select-lang {
     width: 100px;
+    
 }
 
 .final-text {
